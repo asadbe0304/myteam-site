@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/livvic-v13-latin-500.woff2') format('woff2'),
+        url('../fonts/livvic-v13-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/livvic-v13-latin-600.woff2') format('woff2'),
+        url('../fonts/livvic-v13-latin-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/livvic-v13-latin-700.woff2') format('woff2'),
+        url('../fonts/livvic-v13-latin-700.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #014e56;
+    font-family: "Livvic", sans-serif;
+}
+
+.site-header {
+    padding: 73px 0 129px 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1167px;
+}
+
+.header-logo-link {
+    margin-right: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.header-item {
+    display: inline-block;
+}
+
+.h-item-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-contact {
+    padding: 8px 33px 10px 32px;
+    margin-left: 577px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFf;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+.header-item+.header-item {
+    margin-left: 40px;
+}
+
+.section {
+    background-image: url(../images/Group8.png), url(../images/Group7.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 705px) calc(50% - 120px), calc(50% + 300px) calc(50% + 190px);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1167px;
+}
+
+.hero-section {
+    margin: 0 auto;
+    display: inline-block;
+    padding-bottom: 250px;
+
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 600px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+
+}
+
+.talent {
+    color: #d63b3b;
+}
+
+.section-inner {
+    display: inline-block;
+    width: 450px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.rectangle{
+    margin: 0 0 79px 0;
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+    border-radius: 2px;
+}
+
+.section-text{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color:  #fff;
+
+
+}
